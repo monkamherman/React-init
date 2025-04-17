@@ -43,7 +43,7 @@ export default SEO
 // Default SEO for each page
 const defaultSEO = {
 	keywords: [
-		'barthez kenwou',
+		'herman moukam',
 		"website"
 	],
 	image: '/images/preview-image.png',

@@ -14,7 +14,7 @@ Examples of behaviors that contribute to a positive environment include:
 
 ## Enforcement
 
-Any violations will be reviewed by the maintainers, who will decide on the appropriate actions. Please contact us at [kenwoubarthez@gmail.com] to report any issues.
+Any violations will be reviewed by the maintainers, who will decide on the appropriate actions. Please contact us at [herman.moukam5@gmail.com](mailto:herman.moukam5@gmail.com) to report any issues.
 
 ---
 

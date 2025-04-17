@@ -31,12 +31,12 @@ const Footer: React.FC = () => {
           <Tooltip>
             <TooltipTrigger>
               <Link
-                to={'https://www.linkedin.com/in/barthez-kenwou/'}
+                to={'https://www.linkedin.com/in/hermanmoukam/'}
                 target='_blank'
                 rel="noopener noreferrer"
                 className='font-normal text-primary/70 hover:text-primary/70 hover:underline duration-200 text-nowrap'
               >
-                Barthez Kenwou
+                Herman Moukam
               </Link>
             </TooltipTrigger>
 
@@ -45,7 +45,7 @@ const Footer: React.FC = () => {
                 <p className="flex flex-col gap-2">
                   <span className="bg-footer w-fit">
                     <TextAnimate animation="slideLeft" by="character">
-                      Hello, I am Barthez Kenwou,
+                      Hello, I am Herman Moukam,
                     </TextAnimate>
                   </span>
                   <p className="">
@@ -86,7 +86,7 @@ const Footer: React.FC = () => {
                     <p className="bg-footer w-fit">
                       Linkedin:
                       <Link
-                        to={'https://www.linkedin.com/in/barthez-kenwou/'}
+                        to={'https://www.linkedin.com/in/hermanmoukam/'}
                         target='_blank'
                         className='font-medium text-primary/85 hover:text-primary duration-200 text-nowrap'
                       >
@@ -99,13 +99,13 @@ const Footer: React.FC = () => {
                     <p className="bg-footer w-fit">
                       Whatsapp:
                       <Link
-                        to={'https://wa.me/237655646688?text=bonjour%20Barthez%20Kenwou'}
+                        to={'https://wa.me/237658852731?text=bonjour%20Herman%20Moukam'}
                         target='_blank'
                         rel="noopener noreferrer"
                         className='font-medium text-primary/85 hover:text-primary duration-200 text-nowrap'
                       >
                         <TextAnimate animation="blurIn" by="character" className='inline ml-2'>
-                          +237 655 646 688
+                          +237 658 852 731
                         </TextAnimate>
                       </Link>
                     </p>

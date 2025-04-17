@@ -9,7 +9,7 @@ runs:
   steps:
     - name: Configure Git user
       run: |
-        git config --global user.email "${{ github.event.pusher.email || 'kenwoubarthez@gmail.com' }}"
+        git config --global user.email "${{ github.event.pusher.email || 'cesaristos5@gmail.com' }}"
         git config --global user.name "${{ github.actor }}"
       shell: bash
 

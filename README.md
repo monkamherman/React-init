@@ -114,8 +114,8 @@ To set up the project locally, follow these steps:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/01Barthez/React-started.git
-   cd react-started
+   git clone https://github.com/monkamherman/React-init.git
+   cd React-init
    ```
 
 2. **Install dependencies**:
@@ -233,4 +233,4 @@ This project is licensed under the [MIT License](https://choosealicense.com/lice
 
 ## Authors
 
-- [@01Barthez](https://github.com/01Barthez)
+- [@monkamherman](https://github.com/monkamherman)

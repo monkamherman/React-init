@@ -2,8 +2,8 @@ services:
   # Set up my-app
   app:
     build: .
-    image: 01barthez/iphone-cameroon
-    container_name: iphone-cameroon-app
+    image: application_name
+    container_name: application_name
     ports:
       - '4000:4000'
     secrets:
@@ -12,14 +12,14 @@ services:
       - ./:/app
       - ./logs:/app/logs
     networks:
-      - iphone-cameroon
+      - application name
     command: ['yarn', 'start']
 
   # Set up nginx service as reverse proxy
   nginx:
     image: nginx:1.27.2-alpine-slim
     restart: always
-    container_name: iphone-cameroon-nginx
+    container_name: application name-nginx
     volumes:
       - ./nginx-config:/etc/nginx/conf.d
       - ./logs/nginx:/var/log/nginx
@@ -28,7 +28,7 @@ services:
     secrets:
       - app_env
     networks:
-      - iphone-cameroon
+      - application name
     depends_on:
       - app
     healthcheck:
@@ -45,5 +45,5 @@ volumes:
   nginx-config:
 
 networks:
-  iphone-cameroon:
+  application name:
     driver: bridge
